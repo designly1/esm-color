@@ -28,4 +28,4 @@ jobs:
               uses: codecov/codecov-action@v5
               with:
                   token: ${{ secrets.CODECOV_TOKEN }}
-                  slug: designly1/color-esm
+                  slug: designly1/esm-color
