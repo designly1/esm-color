@@ -1,7 +1,7 @@
 
 # esm-color
 
-[![Test and Coverage](https://github.com/designly1/color-es/actions/workflows/test-and-coverage.yml/badge.svg)](https://github.com/designly1/color-es/actions/workflows/test-and-coverage.yml)
+[![Test and Coverage](https://github.com/designly1/esm-color/actions/workflows/test-and-coverage.yml/badge.svg)](https://github.com/designly1/esm-color/actions/workflows/test-and-coverage.yml)
 
 A lightweight, tree-shakable ESM library for color manipulation. Supply any valid CSS color string (e.g., `#3498db`, `green`, `rgb(255,0,0)`, or `hsl(240,100%,50%)`) to a variety of utility functions for parsing, converting, and manipulating colors.
 
