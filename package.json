@@ -1,0 +1,56 @@
+{
+  "name": "esm-color",
+  "version": "1.0.0",
+  "description": "A tree-shakable ESM color library. Supply any CSS string to a variety of manipulation functions.",
+  "homepage": "https://esm-color.1337707.xyz",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/designly1/esm-color.git"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/esm/types/index.d.ts",
+  "files": [
+    "dist",
+    "LICENSE.md",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c --watch",
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "color",
+    "colors",
+    "colour",
+    "color manipulation",
+    "css",
+    "color conversion",
+    "color converter",
+    "tree-shakable",
+    "esm"
+  ],
+  "author": {
+    "name": "Jay Simons",
+    "email": "jay@1337707.xyz",
+    "url": "https://1337707.xyz"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@jest/types": "^29.6.3",
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "rollup": "^4.21.2",
+    "ts-jest": "^29.2.5",
+    "tslib": "^2.7.0",
+    "typescript": "^5.5.4"
+  }
+}
