@@ -1,6 +1,6 @@
 {
   "name": "esm-color",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tree-shakable ESM color library. Supply any CSS string to a variety of manipulation functions.",
   "homepage": "https://esm-color.1337707.xyz",
   "repository": {
